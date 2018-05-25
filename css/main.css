@@ -1,0 +1,219 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-size: 1em;
+	margin: 0 auto;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2.2em;
+	text-align: center;
+	width: auto;
+	padding: 15px 0;
+	border-bottom: 3px solid #77a466;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: center;
+	padding: 15px;
+}
+
+h4 {
+	font-size: 0.75em;
+}
+
+/*The widths are in a percentage!*/
+/* Nav & Logo Section */
+header {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header span {
+	color: #77a466;
+}
+
+
+header nav a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0 10px;
+	color:#77a466;
+	line-height: 2;
+}
+
+/*The widths are in a percentage!*/
+/* Top Section */
+.top-section {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 1.875em;
+}
+
+.top-section h3 {
+	font-size: 0.6em;
+	color: #77a466;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title p {
+	padding: 0px;
+	line-height: 25px;
+	font-size: 0.6em;
+}
+
+/* Bottom Section*/
+.bottom-section {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.bottom-section h4 {
+	padding: 25px 30px;
+	font-size: 1.1em;
+	text-align: center;
+	margin: 0;
+}
+
+.menu {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	padding: 10px 30px;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	line-height: 21px;
+	font-size: 1.1em;
+	padding: 0 10px;
+	margin: 0;
+}
+
+.address {
+	font-size: 1.1em;
+	text-align: center;
+	line-height: 24px;
+	margin: 0;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%;
+	border-top: 3px solid #eee;
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
+
+footer h4{
+	margin: 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 940px) {
+/* Nav & Logo Section */
+header {
+		width: 100%;
+}
+
+h1 {
+	float: left;
+	border-bottom: 0;
+	margin-left: 10px;
+}
+
+header nav {
+	float: right;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 40px 30px;
+	font-size: 1em;
+}
+
+/* Top Section */
+.top-section {
+	width: 100%;
+}
+
+.top-section h3 {
+	text-align: left;
+	border-bottom: 0;
+	margin-left: 10px
+}
+
+.top-section p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Bottom Section */
+.bottom-section {
+	width: 100%;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.section-one,
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+	clear: both;
+}
+
+footer h4 {
+	 margin-top: 15px;
+ }
+}
